@@ -52,6 +52,15 @@ export const LayoutDashboard = (props: interfProps) => {
                                         Dashboard
                                     </a>
                                 </li>
+                                <li className="nav-item">
+                                    <a
+                                        className={`nav-link`}
+                                        href={'/usuarios'}
+                                    >
+                                        <span data-feather="home"></span>
+                                        Usuários
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
